@@ -7,8 +7,8 @@ public void draw()
 {
 	background(135,206,235);
 	fill(222,184,135);
-	ellipse(-10, 200, 600, 600);
-	myFractal(175,200,300, 50);
+	//ellipse(-10, 200, 600, 600);
+	myFractal(-10,200,600, 50);
 }
 public void myFractal(int x, int y, int siz, int len)
 {
